@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            string filePath = "C:\\Users\\thokj\\OneDrive\\Desktop\\ToDoList\\test.txt";
+            string filePath = "C:\\Users\\thokj\\OneDrive\\Desktop\\SimpleToDoList\\text.txt";
             var toDoList = new ToDoList(filePath);
 
             if (!File.Exists(filePath))
